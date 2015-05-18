@@ -42,7 +42,6 @@ public class Weed extends Plant {
 			Weed newWeed = new Weed(false);
 			newWeed.setLocation(freeLocation);
 			newActors.add(newWeed);
-			field.place(newWeed, freeLocation);
 		}
 	}
 

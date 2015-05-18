@@ -36,7 +36,6 @@ public class Farmer extends Actor {
 		if(freeLocation != null) {
 			BeanPlant bean = new BeanPlant(false);
 			bean.setLocation(freeLocation);
-			field.place(bean, freeLocation);
 			newActors.add(bean);
 		}
 	}

@@ -1,7 +1,7 @@
 package actors;
 
 public abstract class Plant extends Actor{
-
+	
 	private int age;
 	
 	private boolean alive;
